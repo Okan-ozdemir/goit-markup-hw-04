@@ -247,6 +247,9 @@ address a {
   gap: 24px;
 }
 
+.section-ul .list.team {
+  width: calc((100% - 48px) / 4);
+}
 /*SECTION THREE*/
 
 .section-three {
