@@ -88,11 +88,11 @@ ul {
   display: flex;
   gap: 40px;
 }
-.header-link .list:last-child {
+.header-ul .list:last-child {
   margin-right: 0;
 }
 
-.header-link .list .item {
+.header-ul .list .item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -101,10 +101,27 @@ ul {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
-.header-link .list .item:hover,
-.header-link .list .item:focus {
+.header-ul .list .item:hover,
+.header-ul .list .item:focus {
   color: #404bbf;
 }
+
+.header-ul .link-item {
+  position: relative;
+  color: #404bbf;
+}
+
+.link-item_one::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .address {
   font-style: normal;
 }
