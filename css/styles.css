@@ -251,10 +251,38 @@ address a {
   width: calc((100% - 48px) / 4);
 }
 /*SECTION THREE*/
+.three-icon-svg {
+  fill: #f4f4fd;
+}
 
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+
+.three-social-media-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-media-button-li {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-button {
+  display: flex;
+  background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media-button:hover,
+.social-media-button:focus {
+  background-color: #404bbf;
 }
 
 /*SECTION FOUR*/
