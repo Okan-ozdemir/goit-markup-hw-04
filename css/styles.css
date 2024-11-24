@@ -111,7 +111,7 @@ ul {
   color: #404bbf;
 }
 
-.link-item_one::after {
+.link-item::after {
   content: "";
   width: 100%;
   position: absolute;
