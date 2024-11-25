@@ -11,7 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  max-width: 1440px;
 }
 
 img {
@@ -152,6 +151,7 @@ address a {
 
 /*SECTION ONE*/
 .section-one {
+  max-width: 1440px;
   background-color: #2e2f42;
   padding: 188px 0;
   background-repeat: no-repeat;
@@ -162,6 +162,7 @@ address a {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/office1.jpg);
+  margin: 0;
 }
 
 .section-div-container {
@@ -303,13 +304,6 @@ address a {
   width: calc((100% - 48px) / 3);
 }
 
-.last:nth-child(3n) {
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.section-ul .list:last-child {
-  margin-right: 0;
-}
 .section-ul .list {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
