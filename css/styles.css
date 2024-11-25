@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  max-width: 1440px;
 }
 
 img {
@@ -153,7 +154,6 @@ address a {
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -164,7 +164,7 @@ address a {
     url(../images/office1.jpg);
 }
 
-.section-one-container {
+.section-div-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,16 +192,6 @@ address a {
 .hero-button:focus {
   background-color: #404bbf;
   color: #ffffff;
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 .hero-header {
@@ -260,6 +250,15 @@ address a {
   fill: #f4f4fd;
 }
 
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
