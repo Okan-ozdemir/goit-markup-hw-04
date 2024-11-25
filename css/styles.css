@@ -409,3 +409,39 @@ address a {
   color: #f4f4fd;
   max-width: 264px;
 }
+.footer-div {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.footer-icon-svg {
+  fill: #f4f4fd;
+}
+.paragraph-one {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-social-media-ul {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-media-li {
+  width: 40px;
+  height: 40px;
+}
+.social-media-button-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-button-link:hover,
+.social-media-button-link:focus {
+  background-color: #31d0aa;
+}
